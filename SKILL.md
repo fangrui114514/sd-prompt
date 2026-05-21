@@ -336,161 +336,87 @@ worst quality, low quality, bad quality, lowres, blurry, jpeg artifacts, bad ana
 
 ---
 
-## 八、Illustrious 画师串速查表（画师风格参考大全）
+## 八、Illustrious 画风分类指南
 
-> 数据来源：[crclz/ImageAutoPrompt](https://github.com/crclz/ImageAutoPrompt) / fangrui114514 速查表。适用于 Illustrious / NoobAI / WAI 等光辉系列模型。
-> prompt 中用 `artist:name` 格式，多画师逗号分隔，推荐 1~3 个，`(artist:name:1.2)` 调权。
+适用于 Illustrious / NoobAI / WAI 等光辉系列模型。prompt 中用 `artist:name` 格式，多画师逗号分隔，推荐 1~3 个，`(artist:name:1.2)` 调权。具体画师 tag 可在 [Danbooru Artist 列表](https://danbooru.donmai.us/artists) 上按风格关键词搜索。
 
-### 8.1 赛璐璐 / 动画风（37 位）
+### 8.1 赛璐璐 / 动画风
 
-线条干净、色彩明快的经典动画风格。
+线条干净、色彩明快的经典动画风格。特点是平涂上色、清晰线稿、色彩饱和度高。
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `torino aqua` | 极致逆光、丁达尔空气感、通透、粉嫩肤色、广角透视 | 氛围/赛璐璐 |
-| `houraku` | 果冻通透肉感、汗水油脂光泽、糖果色、柔焦、勒痕 | 肉感/赛璐璐 |
-| `scottie (phantom2)` | 半厚涂赛璐璐、水波焦散、强反光、紫粉色阴影 | 赛璐璐/厚涂/氛围 |
-| `chigusa minori` | 莫兰迪色背景、面部高饱和红晕、湿润含羞、生活化POV | 赛璐璐 |
-| `akipeko` | 软光生活流、半透明肤感、写实骨骼肌肉、日常瞬时 | 淡彩/赛璐璐 |
-| `tsuchikure` | 极致润感、巨瞳多层虹膜、粉色渐变腮红、圆润挤压 | 肉感/赛璐璐 |
-| `kantoku` | 赛璐璐进阶、白衬衫水渍半透明、果冻感、窥视视角 | 赛璐璐/氛围 |
-| `anmi` | 唯美轻盈、逆光丁达尔、水润肉感、薄纱蕾丝材质 | 赛璐璐/氛围 |
-| `hiten (hitenkei)` | 商业赛璐璐、冷暖邻近色、水下折射、粉润白皙 | 赛璐璐 |
-| `40hara` | 极致幼化建模、短肢软糯、边缘光散景、清透空气感 | 赛璐璐 |
-| `shiratama (shiratamaco)` | 极致幼态Loli、马卡龙色、婴儿肥、碎星花瓣 | 赛璐璐/氛围/肉感 |
-| `tiv` | 青蓝樱粉对比、多色阴影、泛光虚化、带色线稿 | 赛璐璐 |
-| `misaki kurehito` | 华丽通透、高饱和暖色调、宝石瞳、液体皮革反光 | 赛璐璐 |
-| `tsunako` | 包子脸、宝石瞳碎星高光、绸缎蕾丝质感 | 赛璐璐 |
-| `mika pikazo` | 几何星芒瞳、荧光撞色、赛博霓虹、硬朗几何切面 | 独特/赛璐璐 |
-| `miaruri` | 萌系赛璐璐、糖果色、高通透果冻瞳、线条腮红 | 赛璐璐 |
-| `aoha (aohasora)` | 糖果色调、色彩溢出空气感、碎钻叠色瞳、轻奢偶像 | 赛璐璐/氛围/肉感 |
-| `dokimaru` | 甜美商业向、极幼态大眼、沙漏型肉感、繁复蕾丝 | 赛璐璐/肉感 |
-| `aoe ui` | 进阶赛璐璐、强逆光丁达尔、玻璃通透感、湿身 | 赛璐璐/氛围 |
-| `chiu538` | 清新萌系、幼态丰满、碎钻瞳、极强红晕、空气感 | 赛璐璐/肉感 |
-| `sironora` | 极幼态、巨大宝石眼、重度红晕、纤细骨架 | 肉感/赛璐璐 |
-| `ca paria` | 幼态少女感、果冻眼、高透明皮肤、关节肉感 | 赛璐璐/肉感 |
-| `kiramarukou` | 顶级赛璐璐、极光色、逆光光斑、汗渍勒痕 | 赛璐璐/肉感 |
-| `sky cappuccino` | 精细赛璐璐、轻厚涂、强弥散逆光、清纯色气 | 赛璐璐/氛围 |
-| `weri` | 萌系高透明、叠色宝石瞳、极细发丝、空气感 | 赛璐璐/淡彩 |
-| `kanda done` | 高明度冷灰调、繁复宝石瞳、侧逆光、半厚涂 | 厚涂/赛璐璐 |
-| `shironekokfp` | 进阶赛璐璐、重肉感、高饱和高通透、S曲线 | 赛璐璐/肉感 |
-| `thalia` | 互动风、轻度工口、幼脸肉身、粉白肤 | 肉感/赛璐璐 |
-| `arata (xin)` | 少女幼女、湿身暗示、水彩风、大高光 | 赛璐璐/淡彩/肉感 |
-| `abpart` | 糖果色粉白紫、沙漏型胯宽肉腿、萌系幼态 | 赛璐璐/肉感 |
-| `myowa` | 赛璐璐厚涂融合、几何星光瞳、汗珠、华丽蕾丝 | 赛璐璐/厚涂 |
-| `re inverse` | **对 NoobAI 无效**未被收录 | 赛璐璐/写实/肉感 |
-| `arl` | 华丽精细萌系、马卡龙色、粉紫影、空灵逆光 | 赛璐璐/淡彩 |
-| `amaki daisuke` | 赛博糖果色、心形高光、深粉下眼影、油润感 | 赛璐璐/肉感 |
-| `matanonki` | 极精细萌系、短头身、华丽多色瞳、大面积红晕 | 赛璐璐/肉感 |
-| `miwabe sakura` | 进阶赛璐珞、高发光感、清透蓝紫调、宝石碎钻瞳 | 赛璐璐 |
-| `nijihashi sora` | 阳光色气、梦幻商插、超现实肉感、高反光水渍 | 赛璐璐/肉感 |
+**风格特征**：线条清晰、色块分明、饱和度高、阴影简洁
 
-### 8.2 厚涂 / 半厚涂（15 位）
+**常见搭配标签**：`cel shading, sharp lines, clean lineart, flat colors, vibrant colors`
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `atdan` | 冷暖对比、强逆光Bokeh、几何高光瞳、水体丝绸质感 | 厚涂/氛围 |
-| `swd3e2` | 极致盆骨大腿围、韩系半厚涂、冷色边缘光 | 肉感/厚涂 |
-| `asteroid ill` | 极深远景纵深、高俯仰角、强丁达尔光簇、废墟美学 | 氛围/厚涂 |
-| `betanonbeet` | 厚涂写实肌理、次表面散射、爱心发光瞳 | 厚涂 |
-| `hidulume` | 半厚涂强光影、冷暖温差、汗水红晕、百叶窗切光 | 厚涂/肉感 |
-| `fly (marguerite)` | 半厚涂水彩、夏日阵雨、高反差自然光、手工颗粒感 | 厚涂/淡彩 |
-| `yuumei` | 赛博幻想、强对比发光特效、靛青暖金碰撞 | 厚涂/独特 |
-| `roula` | 印象派光影、色散边缘溢光、大透视动态 | 厚涂 |
-| `wlop` | 写实油画笔触、电影级强逆光、凄美史诗 | 厚涂/氛围 |
-| `shal.e` | 无轮廓色块、水光厚唇、电影氛围光、颓废唯美 | 厚涂 |
-| `nixeu` | 韩系半写实、中心肖像景深、轮廓光骨相 | 厚涂/写实 |
-| `egami` | 写实渲染混幼态造型、环境光逻辑、被动柔弱 | 厚涂/肉感 |
-| `pinki o64` | 进阶厚涂、高饱和粉紫调、极重肉感、JK混搭 | 厚涂/肉感 |
-| `ru zhai` | 湿润皮肤油汗高光、大透视俯仰视角、粗壮下肢 | 肉感/厚涂 |
-| `Alex Negrea` | 欧美厚涂、写实光影、奇幻题材 | 厚涂/写实 |
+**适用场景**：日常角色、偶像、校园题材、商业插画
 
-### 8.3 淡彩 / 水彩 / 透明感（9 位）
+**推荐搜索关键词**：在 Danbooru 上搜索 `cel_shading` 或 `anime_style` 相关标签的活跃画师
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `ibara riato` | 糖果色虹彩、色差效果、强逆光丁达尔、悬浮粒子 | 肉感/淡彩 |
-| `ask (askzy)` | **极致通透**、冷淡仙气、极细线结构、高级灰空灵 | 淡彩 |
-| `kanzarin` | 荧光空气感、奶油果冻弹性、幼态反差 | 肉感/淡彩 |
-| `fuzichoco` | 极高饱和逆光、金属晶体反光、超广角鱼眼 | 淡彩/氛围 |
-| `rella` | **玻璃金属通透**、丝绸发丝、丁达尔神圣感 | 淡彩/氛围 |
-| `yuzuriha (nx e78)` | 水下梦幻感、流体泡泡、冷调蓝紫水彩晕染 | 淡彩/氛围/独特 |
-| `pon (ponidrop)` | 高明度高饱和、丰腴比例、华美瞳孔 | 淡彩/氛围/肉感 |
-| `mignon` | **湿润系通透**、低饱和基调高亮糖果色、肉感深度 | 淡彩/肉感 |
-| `miwano rag` | 赛博梦幻、高亮低灰、环境色溢出、水感玻璃感 | 淡彩/独特 |
+### 8.2 厚涂 / 半厚涂
 
-### 8.4 写实 / 半写实（3 位）
+笔触厚重、光影强烈、具有油画质感的风格。色彩融合自然，体积感强。
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `arsenixc` | 超写实背景、黄金时刻侧光、电影级广角透视 | 写实/氛围 |
-| `shinkai makoto` | **新海诚**、强对比逆光、蓝紫渐变、积雨云壁纸感 | 写实/氛围 |
-| `swav` | 硬核机能、冷冽冰蓝钛白、机甲软装融合 | 写实/独特 |
+**风格特征**：厚重笔触、强光影对比、体积感、次表面散射、色彩融合
 
-### 8.5 氛围 / 背景 / 逆光（8 位）
+**常见搭配标签**：`oil painting, thick brush strokes, impasto, painterly, chiaroscuro, dramatic shadows, volumetric lighting`
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `rhtkd` | 强逆光温差对比、油润高反光肤质、九头身 | 肉感/氛围 |
-| `rafaelaaa` | 强逆光轮廓光、Lens Flare、电影级定格式 | 肉感/氛围 |
-| `mebe (teadia violet)` | 电影感叙事、冷调低饱和、窗影体积感 | 氛围 |
-| `mocha (cotton)` | 大景小人、仰角广角、电影滤镜、云海信号塔 | 氛围 |
-| `vofan` | 光影魔术、柔焦摄影风、色散效果、生活化 | 独特/氛围 |
-| `jiang ye kiri` | 强逆光轮廓光、次表面散射、通透空气感 | 肉感/氛围 |
-| `mafuyu (chibi21)` | 梦幻透明、叠色宝石瞳、蓝色调、碎光虚化 | 氛围/肉感 |
-| `navy (navy.blue)` | 糖果色幼面肉感、湿润大眼、漫反射边缘光 | 氛围/肉感 |
+**适用场景**：奇幻/史诗场景、氛围向插画、角色肖像
 
-### 8.6 独特画风（10 位）
+**推荐搜索关键词**：在 Danbooru 上搜索 `oil_painting` 或 `realistic` 相关标签的活跃画师
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `tianliang duohe fangdongye` | 极幼2-3头身、鱼眼广角、发光滤镜、赛博军事 | 独特/肉感 |
-| `himiya jouzu` | 极简细线、大量留白、豆豆眼颜艺、魔性冷幽默 | 独特 |
-| `akie` | 高明度病弱感、粉紫白调、眼神涣散、医疗宗教 | 肉感/独特 |
-| `kamu (geeenius)` | 极简幼态五官、高饱和色边阴影、骨肉平衡 | 独特/肉感 |
-| `lirseven` | 赛博冷色调、RGB色散霓虹、锐利边界、几何元素 | 独特 |
-| `sushispin` | 赛博病娇、极端俯仰透视、失神崩坏、黑暗系 | 独特/肉感 |
-| `cogecha` | 波普故障风、强对比补色、冷调疏离、工业废墟 | 独特 |
-| `lam (ramdayo)` | 赛博波普、荧光补色、瞳孔几何星辰、半调网点 | 独特 |
-| `yoneyama mai` | 虹彩撞色、色散溢光、液态透明件、碎片动态构图 | 独特 |
-| `negimapurinn` | 重装饰满溢构图、炫光棱镜、幼态脸性感身、甜辣 | 肉感/独特 |
+### 8.3 淡彩 / 水彩 / 透明感
 
-### 8.7 肉感 / 丰腴（7 位）
+色彩轻薄通透，具有水彩或玻璃质感的风格。画面空灵、空气感强。
 
-| 画师 tag | 风格关键词 | 标签 |
-|----------|-----------|------|
-| `fukahire (ruinon)` | 镭射虹彩、极光色、星光瞳、幻想哥特 | 肉感 |
-| `berserker r` | 极致肉感比例、幼态萌系、珍珠质感皮肤 | 肉感 |
-| `sg satoumogumogu` | 核心向丰腴、重力下垂感、手办视觉化 | 肉感 |
-| `shigure s` | 极致丰腴、小恶魔魅惑、高反光胶衣、商业涩气 | 肉感 |
-| `sora 72-iro` | 宽胯厚腿、童颜长相、丝袜束缚、官能诱惑 | 肉感 |
-| `coffee-kizoku` | 梨形巨乳、腰跨比、湿润唇部高光、冷调阴影 | 肉感 |
-| `fanteam` | 勒肉挤压、果冻肤通透、强环境色强高光 | 肉感 |
+**风格特征**：色彩通透、空气感强、光线折射、细腻线条、冷色调为主
 
-### 8.8 经典画师串组合推荐
+**常见搭配标签**：`watercolor, translucent, ethereal, soft colors, pastel, luminous, delicate`
 
-| 组合 | 效果 | 适合场景 |
-|------|------|---------|
-| `ask, ntoskr` | 柔和+锐利的平衡 | 角色立绘、日常场景 |
-| `wlop, artgerm` | 厚涂氛围+精致面容 | 奇幻/史诗角色肖像 |
-| `krenz, wlop` | 光影结构+氛围渲染 | 光影氛围场景 |
-| `lack, wlop` | 华丽角色+史诗背景 | Fate系、战斗场景 |
-| `memeno, fuusuke` | 动态构图+爽快动作线 | 动作/战斗场景 |
-| `feima, rella` | 淡彩+水彩轻薄透明感 | 治愈/浪漫/日常 |
-| `loundraw, wlop` | 剧场透明感+氛围光 | 电影感场景 |
-| `mika pikazo, krenz` | 色彩爆发+坚实结构 | 视觉系、舞台 |
+**适用场景**：治愈系、浪漫、日常、梦幻场景
+
+**推荐搜索关键词**：在 Danbooru 上搜索 `watercolor` 或 `pastel` 相关标签的活跃画师
+
+### 8.4 写实 / 半写实
+
+追求接近真实光影和质感的风格，常用于背景或特定氛围场景。
+
+**风格特征**：写实光影、细节丰富、景深效果、材质真实
+
+**常见搭配标签**：`photorealistic, realistic, detailed background, depth of field, golden hour, cinematic`
+
+**适用场景**：风景、建筑、电影感场景
+
+**推荐搜索关键词**：在 Danbooru 上搜索 `photorealistic` 或 `scenery` 相关标签的活跃画师
+
+### 8.5 氛围 / 逆光风格
+
+以光影氛围为核心，强调逆光、丁达尔效应、电影感照明。
+
+**风格特征**：强逆光、轮廓光、丁达尔光、电影照明、冷暖对比
+
+**常见搭配标签**：`backlighting, rim lighting, lens flare, god rays, volumetric lighting, cinematic lighting, dramatic shadows`
+
+**适用场景**：氛围向角色图、电影感场景、情绪表达
+
+**推荐搜索关键词**：在 Danbooru 上搜索 `backlighting` 或 `cinematic` 相关标签的活跃画师
 
 ---
 
 ## 九、常用标签参考库（按需取用）
 
-### 9.1 画师串（厚涂/精致风）
+### 9.1 画师串示例（通用模板）
 
+画师串需要根据目标模型和个人偏好选择具体画师。建议在 Danbooru 上搜索图像数 > 100 的画师 tag 使用。
+
+**厚涂/精致风示例**：
 ```
-(artist:quasarcake:0.8), (wlop:0.6), (yoneyama:1.0), (rella:0.8)
+(artist_a:1.0), (artist_b:0.7), (artist_c:0.5)
 ```
 
-其他推荐画师：`ningen mame`, `reoen`, `ask (askzy)`, `miv4t`, `timbougami`, `lack`, `dino (dinoartforame)`, `rei (sanbonzakura)`, `potg (piotegu)`
+选择画师时注意：
+- 主画师权重 1.0~1.2，辅画师 0.3~0.8
+- 使用 BREAK 隔离画师 tag，避免互相干扰
+- 图像数少的画师建议改用 LoRA
 
 ### 9.2 质量标签（去重版）
 
@@ -611,18 +537,3 @@ score_9, score_8_up, score_7_up, sharp focus, high definition, ultra detailed te
 
 如果用户只提供了简单的想法而非完整描述，主动回问缺失的关键信息（角色外貌、场景、风格、模型等）。
 
----
-
-## 致谢 / Credits
-
-本 skill 的内容参考和整合了以下开源项目和社区资源：
-
-- [crclz/ImageAutoPrompt](https://github.com/crclz/ImageAutoPrompt) — Illustrious 画师标签速查表数据来源
-- [xhoxye/BooruTagCart](https://github.com/xhoxye/BooruTagCart) — Danbooru 标签管理器
-- [DominikDoom/a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete) — SD WebUI 标签自动补全插件
-- [Danbooru](https://danbooru.donmai.us/) — 标签系统和画师数据
-- [NovelAI Tag Tool](https://tags.novelai.dev) — 在线标签构建器参考
-- [SmilingWolf/wd-v1-4-tagger](https://huggingface.co/spaces/SmilingWolf/wd-v1-4-tagger) — WD14 图片反向标签提取
-- [fangrui114514 画师串速查表](https://github.com/fangrui114514) — 画师风格分类参考
-
-如有遗漏或需补充来源，请提 Issue 或 PR。
