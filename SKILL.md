@@ -610,3 +610,19 @@ score_9, score_8_up, score_7_up, sharp focus, high definition, ultra detailed te
 3. **负面提示词**：适配目标模型的格式
 
 如果用户只提供了简单的想法而非完整描述，主动回问缺失的关键信息（角色外貌、场景、风格、模型等）。
+
+---
+
+## 致谢 / Credits
+
+本 skill 的内容参考和整合了以下开源项目和社区资源：
+
+- [crclz/ImageAutoPrompt](https://github.com/crclz/ImageAutoPrompt) — Illustrious 画师标签速查表数据来源
+- [xhoxye/BooruTagCart](https://github.com/xhoxye/BooruTagCart) — Danbooru 标签管理器
+- [DominikDoom/a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete) — SD WebUI 标签自动补全插件
+- [Danbooru](https://danbooru.donmai.us/) — 标签系统和画师数据
+- [NovelAI Tag Tool](https://tags.novelai.dev) — 在线标签构建器参考
+- [SmilingWolf/wd-v1-4-tagger](https://huggingface.co/spaces/SmilingWolf/wd-v1-4-tagger) — WD14 图片反向标签提取
+- [fangrui114514 画师串速查表](https://github.com/fangrui114514) — 画师风格分类参考
+
+如有遗漏或需补充来源，请提 Issue 或 PR。
